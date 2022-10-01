@@ -1,0 +1,3 @@
+/Users/jialeyang/Desktop/C++PrimerPlus/cmake-build-debug/CMakeFiles/C++PrimerPlus.dir
+/Users/jialeyang/Desktop/C++PrimerPlus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jialeyang/Desktop/C++PrimerPlus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
