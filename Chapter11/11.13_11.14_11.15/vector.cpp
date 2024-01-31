@@ -111,7 +111,7 @@ namespace VECTOR
     }
 
     // operator overloading
-    Vector Vector::operator+(const Vector & b) const
+    Vector Vector::operator+(const Vector & b) const  // do not need to use a friend function, because the two sides are both Vector class.
     {
         return Vector(x + b.x, y + b.y);
     }
@@ -122,7 +122,7 @@ namespace VECTOR
     }
 
     // reverse sign of Vector
-    Vector Vector::operator-() const
+    Vector Vector::operator-() const // why it can match -vec. implicitly this parameter
     {
         return Vector(-x, -y);
     }

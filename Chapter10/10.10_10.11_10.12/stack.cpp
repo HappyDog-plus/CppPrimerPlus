@@ -39,7 +39,7 @@ bool Stack::pop(Item & item)
 {
     if (top > 0)
     {
-        item = items[--top];
+        item = items[--top]; // top refer to the memory that has no data.
         return true;
     }
     else

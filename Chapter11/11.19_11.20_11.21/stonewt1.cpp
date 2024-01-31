@@ -35,7 +35,7 @@ void Stonewt::show_lbs() const
     cout << pounds << " pounds\n";
 }
 
-Stonewt::operator int() const
+Stonewt::operator int() const // 'int' is a conversion operator
 {
     return int (pounds + 0.5);
 }
